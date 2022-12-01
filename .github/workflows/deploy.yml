@@ -17,6 +17,6 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
           subscriptionId: 6a754488-9a44-4e5d-b9fa-b64057cd7bc1
-          resourceGroupName: cloud-backend
+          resourceGroupName: frontend
           template: ./templates/staticwebapp.json
 
